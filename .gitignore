@@ -1,3 +1,4 @@
+.gitattributes
 dataset/
 models/*/train_dataset.csv
 models/*/test_dataset.csv
