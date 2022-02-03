@@ -1,5 +1,10 @@
-Detecting sarcasm in reddit comments using text vectorisation and LSTM RNNs.
+Detecting sarcasm in reddit comments using added features, text vectorisation and LSTM RNNs.
 Machine learning project for 'laboratory for applied machine learning algorithms' course at KIT
+
+order of execution:
+1. feature_engineering.ipynb
+2. machine_learning.ipynb
+3. visualization.ipynb
 
 Kaggle post:
     https://www.kaggle.com/danofer/sarcasm
