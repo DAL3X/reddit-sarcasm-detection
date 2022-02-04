@@ -1,0 +1,25 @@
+model name: full_with_parent_comment
+  parameters:
+    use_parent_comment: True
+    input_features: ['subreddit', 'score', 'ups', 'downs', 'time', 'day_of_week', 'comment_length', 'parent_comment_length', 'smileys', 'smileys_parent', 'sarcasm_indicators', 'sarcasm_indicators_parent', 'caps_lock', 'caps_lock_parent', 'letter_duplication', 'letter_duplication_parent']
+    metadata_dimension: 16
+    rnn_dimension: 128
+    dense_dimension: 64
+    training_epochs: 15
+    batch_size: 16
+    training_set_size: 952700
+    testing_set_size: 190540
+    vocab_size: 4000
+    random_seed: 31
+  history:
+    comment encoder vocab coverage [0.8735856647988773, 0.8636931769540279]:
+    elapsed time: 175.13min
+    epoch:  1 loss:    6.44985 accuracy:    0.61723 validation-loss:    2.03702 validation-accuracy    0.65151
+    epoch:  2 loss:    0.75837 accuracy:    0.68993 validation-loss:    0.56537 validation-accuracy    0.70993
+    epoch:  3 loss:    0.55162 accuracy:    0.72188 validation-loss:    0.54231 validation-accuracy    0.72515
+    epoch:  4 loss:    0.54415 accuracy:    0.72808 validation-loss:    0.54142 validation-accuracy    0.72595
+    epoch:  5 loss:    0.53892 accuracy:    0.73169 validation-loss:    0.54753 validation-accuracy    0.72306
+    epoch:  6 loss:    0.53582 accuracy:    0.73425 validation-loss:    0.54088 validation-accuracy    0.72641
+    epoch:  7 loss:    0.53418 accuracy:    0.73606 validation-loss:    0.55506 validation-accuracy    0.72053
+    epoch:  8 loss:    0.53390 accuracy:    0.73648 validation-loss:    0.54135 validation-accuracy    0.72604
+    epoch:  9 loss:    0.53291 accuracy:    0.73716 validation-loss:    0.54110 validation-accuracy    0.72634
