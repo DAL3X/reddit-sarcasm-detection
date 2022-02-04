@@ -3,8 +3,7 @@
 Detecting sarcasm in reddit comments using added features, text vectorisation and LSTM RNNs.
 Machine learning project for 'laboratory for applied machine learning algorithms' course at KIT.
 
-## Kaggle post:
-    https://www.kaggle.com/danofer/sarcasm
+![kaggle post](https://www.kaggle.com/danofer/sarcasm)
 
 ## order of execution:
 1. feature_engineering.ipynb
@@ -17,11 +16,11 @@ Machine learning project for 'laboratory for applied machine learning algorithms
 
 ## model flow:
 ### general:
-    ![Flow 1](https://github.com/phil-kit/reddit-comment-lama/raw/main/graphs/model_flow.png)
+![Flow 1](https://github.com/phil-kit/reddit-comment-lama/raw/main/graphs/model_flow.png)
 
 
 ### text:
-    ![Flow 1](https://github.com/phil-kit/reddit-comment-lama/raw/main/graphs/text_flow.png)
+![Flow 1](https://github.com/phil-kit/reddit-comment-lama/raw/main/graphs/text_flow.png)
 
 Simon Bothe, Philip Schröder
 
