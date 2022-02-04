@@ -1,4 +1,7 @@
 .gitattributes
-dataset/*
+dataset/final_test.csv
+dataset/final_train.csv
+dataset/test-balanced.csv
+dataset/train-balanced.csv
 models/*/train_dataset.csv
 models/*/test_dataset.csv
