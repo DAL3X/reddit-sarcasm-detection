@@ -12,18 +12,12 @@ model name: rnn_dimensions_64
     vocab_size: 4000
     random_seed: 31
   history:
-    comment encoder vocab coverage [0.8737626178807818]:
-    elapsed time:  33.49min
-    epoch:  1 loss:   12.82982 accuracy:    0.59334 validation-loss:    2.43333 validation-accuracy    0.68088
-    epoch:  2 loss:    9.31793 accuracy:    0.61736 validation-loss:    2.37717 validation-accuracy    0.69135
-    epoch:  3 loss:    6.27000 accuracy:    0.62908 validation-loss:    4.16571 validation-accuracy    0.57690
-    epoch:  4 loss:    4.44782 accuracy:    0.63544 validation-loss:    2.13388 validation-accuracy    0.69050
-    epoch:  5 loss:    3.29374 accuracy:    0.64288 validation-loss:    1.24666 validation-accuracy    0.68955
-    epoch:  6 loss:    2.10605 accuracy:    0.65222 validation-loss:    0.81754 validation-accuracy    0.70515
-    epoch:  7 loss:    1.15427 accuracy:    0.66463 validation-loss:    0.59759 validation-accuracy    0.70523
-    epoch:  8 loss:    0.59698 accuracy:    0.70720 validation-loss:    0.57334 validation-accuracy    0.70332
-    epoch:  9 loss:    0.55079 accuracy:    0.72647 validation-loss:    0.56767 validation-accuracy    0.70960
-    epoch: 10 loss:    0.53858 accuracy:    0.73363 validation-loss:    0.56668 validation-accuracy    0.70867
-    epoch: 11 loss:    0.53282 accuracy:    0.73897 validation-loss:    0.58288 validation-accuracy    0.70828
-    epoch: 12 loss:    0.52653 accuracy:    0.74287 validation-loss:    0.58526 validation-accuracy    0.69403
-    epoch: 13 loss:    0.52256 accuracy:    0.74645 validation-loss:    0.56918 validation-accuracy    0.70810
+    comment encoder vocab coverage [0.8704487722269263]:
+    elapsed time:  18.43min
+    epoch:  1 loss:    0.57581 accuracy:    0.69560 validation-loss:    0.56155 validation-accuracy    0.70773
+    epoch:  2 loss:    0.54706 accuracy:    0.71862 validation-loss:    0.55875 validation-accuracy    0.70850
+    epoch:  3 loss:    0.53324 accuracy:    0.72870 validation-loss:    0.55817 validation-accuracy    0.71508
+    epoch:  4 loss:    0.52162 accuracy:    0.73661 validation-loss:    0.55496 validation-accuracy    0.71570
+    epoch:  5 loss:    0.51154 accuracy:    0.74439 validation-loss:    0.55728 validation-accuracy    0.71548
+    epoch:  6 loss:    0.50270 accuracy:    0.75065 validation-loss:    0.56854 validation-accuracy    0.71387
+    epoch:  7 loss:    0.49376 accuracy:    0.75634 validation-loss:    0.57035 validation-accuracy    0.71413

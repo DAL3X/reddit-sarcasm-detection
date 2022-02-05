@@ -12,14 +12,11 @@ model name: rnn_dimensions_256
     vocab_size: 4000
     random_seed: 31
   history:
-    comment encoder vocab coverage [0.8727833157151184]:
-    elapsed time:  27.23min
-    epoch:  1 loss:   11.41643 accuracy:    0.59702 validation-loss:    6.78285 validation-accuracy    0.58592
-    epoch:  2 loss:    5.65043 accuracy:    0.62569 validation-loss:    2.14982 validation-accuracy    0.62493
-    epoch:  3 loss:    3.13425 accuracy:    0.63883 validation-loss:    1.81039 validation-accuracy    0.59982
-    epoch:  4 loss:    1.28356 accuracy:    0.65872 validation-loss:    1.74283 validation-accuracy    0.58655
-    epoch:  5 loss:    0.68267 accuracy:    0.69363 validation-loss:    0.58761 validation-accuracy    0.69748
-    epoch:  6 loss:    0.54891 accuracy:    0.72611 validation-loss:    0.56140 validation-accuracy    0.71372
-    epoch:  7 loss:    0.53419 accuracy:    0.73651 validation-loss:    0.57907 validation-accuracy    0.70962
-    epoch:  8 loss:    0.52334 accuracy:    0.74396 validation-loss:    0.57371 validation-accuracy    0.70140
-    epoch:  9 loss:    0.51627 accuracy:    0.74932 validation-loss:    0.56685 validation-accuracy    0.71110
+    comment encoder vocab coverage [0.8723086678698599]:
+    elapsed time:  18.21min
+    epoch:  1 loss:    0.57421 accuracy:    0.69682 validation-loss:    0.56142 validation-accuracy    0.70997
+    epoch:  2 loss:    0.54197 accuracy:    0.72180 validation-loss:    0.55589 validation-accuracy    0.71425
+    epoch:  3 loss:    0.52188 accuracy:    0.73660 validation-loss:    0.55078 validation-accuracy    0.71747
+    epoch:  4 loss:    0.50399 accuracy:    0.74925 validation-loss:    0.55724 validation-accuracy    0.71577
+    epoch:  5 loss:    0.48734 accuracy:    0.76099 validation-loss:    0.56824 validation-accuracy    0.71268
+    epoch:  6 loss:    0.47227 accuracy:    0.77038 validation-loss:    0.56828 validation-accuracy    0.71008

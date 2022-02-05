@@ -12,15 +12,12 @@ model name: batch_size_8
     vocab_size: 4000
     random_seed: 31
   history:
-    comment encoder vocab coverage [0.8734563646032341]:
-    elapsed time:  50.15min
-    epoch:  1 loss:   13.46333 accuracy:    0.59539 validation-loss:    5.81418 validation-accuracy    0.54718
-    epoch:  2 loss:    3.51063 accuracy:    0.62596 validation-loss:    0.93244 validation-accuracy    0.68162
-    epoch:  3 loss:    0.76244 accuracy:    0.68088 validation-loss:    0.61022 validation-accuracy    0.67133
-    epoch:  4 loss:    0.57213 accuracy:    0.71072 validation-loss:    0.57490 validation-accuracy    0.70205
-    epoch:  5 loss:    0.56246 accuracy:    0.71885 validation-loss:    0.64765 validation-accuracy    0.63977
-    epoch:  6 loss:    0.55952 accuracy:    0.72412 validation-loss:    0.57685 validation-accuracy    0.71140
-    epoch:  7 loss:    0.55223 accuracy:    0.72684 validation-loss:    0.57081 validation-accuracy    0.70883
-    epoch:  8 loss:    0.54922 accuracy:    0.73023 validation-loss:    0.59244 validation-accuracy    0.69090
-    epoch:  9 loss:    0.54482 accuracy:    0.73385 validation-loss:    0.57287 validation-accuracy    0.71065
-    epoch: 10 loss:    0.54468 accuracy:    0.73467 validation-loss:    0.60278 validation-accuracy    0.68338
+    comment encoder vocab coverage [0.8737605546517933]:
+    elapsed time:  37.37min
+    epoch:  1 loss:    0.57354 accuracy:    0.69731 validation-loss:    0.56200 validation-accuracy    0.70602
+    epoch:  2 loss:    0.54212 accuracy:    0.72263 validation-loss:    0.55435 validation-accuracy    0.71387
+    epoch:  3 loss:    0.52686 accuracy:    0.73452 validation-loss:    0.55338 validation-accuracy    0.71968
+    epoch:  4 loss:    0.51429 accuracy:    0.74270 validation-loss:    0.55311 validation-accuracy    0.71602
+    epoch:  5 loss:    0.50458 accuracy:    0.74987 validation-loss:    0.55399 validation-accuracy    0.71885
+    epoch:  6 loss:    0.49678 accuracy:    0.75592 validation-loss:    0.56371 validation-accuracy    0.71563
+    epoch:  7 loss:    0.49172 accuracy:    0.75917 validation-loss:    0.56138 validation-accuracy    0.71205

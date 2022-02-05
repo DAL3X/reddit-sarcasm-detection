@@ -12,10 +12,11 @@ model name: only_comment
     vocab_size: 4000
     random_seed: 31
   history:
-    comment encoder vocab coverage [0.8702083869307949]:
-    elapsed time:  13.79min
-    epoch:  1 loss:    0.57737 accuracy:    0.69428 validation-loss:    0.56899 validation-accuracy    0.70895
-    epoch:  2 loss:    0.54540 accuracy:    0.71941 validation-loss:    0.55606 validation-accuracy    0.71240
-    epoch:  3 loss:    0.52884 accuracy:    0.73156 validation-loss:    0.55980 validation-accuracy    0.71355
-    epoch:  4 loss:    0.51465 accuracy:    0.74175 validation-loss:    0.55677 validation-accuracy    0.71415
-    epoch:  5 loss:    0.50030 accuracy:    0.75182 validation-loss:    0.56358 validation-accuracy    0.71107
+    comment encoder vocab coverage [0.8724418251174284]:
+    elapsed time:  15.95min
+    epoch:  1 loss:    0.57689 accuracy:    0.69457 validation-loss:    0.56167 validation-accuracy    0.70622
+    epoch:  2 loss:    0.54531 accuracy:    0.72075 validation-loss:    0.55556 validation-accuracy    0.71372
+    epoch:  3 loss:    0.52790 accuracy:    0.73232 validation-loss:    0.55448 validation-accuracy    0.71445
+    epoch:  4 loss:    0.51269 accuracy:    0.74326 validation-loss:    0.55955 validation-accuracy    0.71222
+    epoch:  5 loss:    0.49737 accuracy:    0.75420 validation-loss:    0.56094 validation-accuracy    0.71113
+    epoch:  6 loss:    0.48436 accuracy:    0.76229 validation-loss:    0.56944 validation-accuracy    0.70995
