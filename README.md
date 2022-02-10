@@ -20,7 +20,6 @@ Machine learning project for 'laboratory for applied machine learning algorithms
 ### general
 ![Flow 1](https://github.com/phil-kit/reddit-comment-lama/raw/main/graphs/model_flow.png)
 
-
 ### text
 ![Flow 1](https://github.com/phil-kit/reddit-comment-lama/raw/main/graphs/text_flow.png)
 
