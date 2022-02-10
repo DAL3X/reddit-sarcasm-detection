@@ -30,6 +30,7 @@ Machine learning project for 'laboratory for applied machine learning algorithms
 ## proof of concept real world implementation
 run 'am_i_sarcastic.py' for a simple demonstration
 uses 'models/only_comment' as model since we don't have any metadata
+
 ![example](https://github.com/phil-kit/reddit-comment-lama/raw/main/graphs/am_i_sarcastic.png)
 
 Simon Bothe, Philip Schröder
