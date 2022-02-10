@@ -13,12 +13,13 @@ for gpu in gpus:
 
 print('loading model for prediction...')
 model = tf.keras.models.load_model(f'models/only_comment')
-print('done.\n\n')
+print('done.\n')
 
 while True:
-    print('\033[95menter yout text:\033[94m')
+    print('\033[95menter yout text:\033[94m ', end='')
     text = input()
-    prediction = model.predict([text])[0][0]
-    sarcasm = True if (prediction>.5) else False
-    if sarcasm: print(f'\033[95m> your input was sarcasm ({int(prediction*100)}%)\033[94m')
-    else: print(f'\033[95m> your input was not sarcasm ({int((1-prediction)*100)}%)\033[94m')
+    if (text != ''):
+        prediction = model.predict([text])[0][0]
+        sarcasm = True if (prediction>.5) else False
+        if sarcasm: print(f'\033[95m> your input was sarcasm (confidence: {int(prediction*100)}%)\033[94m')
+        else: print(f'\033[95m> your input was not sarcasm (confidence: {int((1-prediction)*100)}%)\033[94m')
