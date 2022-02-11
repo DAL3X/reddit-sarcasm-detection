@@ -10,7 +10,7 @@ model = load_model('models/full_only_comment') #load model
 print('done.\n')
 
 while True:
-    print('\033[95menter yout text:\033[94m ', end='')
+    print('\033[95menter your text:\033[94m ', end='')
     text = input()      # prompt for input
     if (text != ''):    # prediction crashes with empty string
         prediction = model.predict([text])[0][0]      # get prediction
