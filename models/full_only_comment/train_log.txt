@@ -1,0 +1,23 @@
+model name: full_only_comment
+  parameters:
+    use_parent_comment: False
+    input_features: []
+    metadata_dimension: 0
+    rnn_dimension: 128
+    dense_dimension: 64
+    training_epochs: 15
+    batch_size: 16
+    training_set_size: 952700
+    testing_set_size: 190540
+    vocab_size: 4000
+    random_seed: 31
+  history:
+    comment encoder vocab coverage [0.871057841196417]:
+    elapsed time:  72.86min
+    epoch:  1 loss:    0.56012 accuracy:    0.70800 validation-loss:    0.54375 validation-accuracy    0.72114
+    epoch:  2 loss:    0.53564 accuracy:    0.72706 validation-loss:    0.53789 validation-accuracy    0.72627
+    epoch:  3 loss:    0.52648 accuracy:    0.73390 validation-loss:    0.53561 validation-accuracy    0.72771
+    epoch:  4 loss:    0.52099 accuracy:    0.73815 validation-loss:    0.53382 validation-accuracy    0.72807
+    epoch:  5 loss:    0.51748 accuracy:    0.74076 validation-loss:    0.53570 validation-accuracy    0.72865
+    epoch:  6 loss:    0.51588 accuracy:    0.74215 validation-loss:    0.53452 validation-accuracy    0.72925
+    epoch:  7 loss:    0.51504 accuracy:    0.74272 validation-loss:    0.53444 validation-accuracy    0.72838
